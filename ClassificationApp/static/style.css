@@ -1,0 +1,25 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  background-color: lightgray;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.options:active {
+  transform: scale(.9);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.btn {
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  flex: 1;
+}
